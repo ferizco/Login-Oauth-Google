@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info</title>
+    <link rel="stylesheet" href="../static/style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User Information</h1>
+        <div class="teks" id="userInfo">
+            <p>Name: {{.name}}</p>
+            <p>Email: {{.email}}</p>
+            <p>Picture: <img src="{{.picture}}" alt="Profile Picture"></p>
+        </div>
+        <div class="buttons">
+            <!-- <a href="/logout">Logout</a> -->
+        </div>
+    </div>
+</body>
+</html>
